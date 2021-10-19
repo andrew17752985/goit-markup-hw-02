@@ -1,0 +1,40 @@
+:root{
+    --text-color: #2196F3;
+    --primery-text-color: #212121;
+    --paragraph-color: #757575;
+    --white-color: #FFFFFF;
+    --background-header-footer-color: #2F303A;
+    --background-content-color: #F5F4FA;
+}
+.logo{
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 0.83;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 3%;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.logo-white{
+    color: var(--white-color);
+}
+.logo-black{
+    color: var(--primery-text-color);
+}
+.bold-text{
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 1.14;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 2%;
+    color: var(--primery-text-color);
+    text-decoration: none;
+    
+}
+ul .bold-text{
+    list-style-type: none;
+}
