@@ -6,6 +6,15 @@
     --background-header-footer-color: #2F303A;
     --background-content-color: #F5F4FA;
 }
+body{
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.18;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 3%;
+}
 .logo{
     font-family: Raleway;
     font-style: Bold;
@@ -24,7 +33,6 @@
     color: var(--primery-text-color);
 }
 .bold-text{
-    font-family: Roboto;
     font-style: Medium;
     font-size: 14px;
     line-height: 1.14;
@@ -35,6 +43,6 @@
     text-decoration: none;
     
 }
-ul .bold-text{
+.delete-list {
     list-style-type: none;
 }
